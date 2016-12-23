@@ -81,7 +81,6 @@
 		arr.push( [ lis[i].offsetLeft , lis[i].offsetTop ] );
 	}
 	
-	//console.log(arr)
 	//布局转换
 	for(var i=0;i<lis.length;i++){
 		lis[i].style.position = 'absolute';
@@ -89,7 +88,6 @@
 		lis[i].style.top = arr[i][1] + 'px';
 		lis[i].style.margin = 0;
 	}
-	
 	for(var i = 0; i < lis.length; i++){
 		//添加索引
 		lis[i].index = i;
