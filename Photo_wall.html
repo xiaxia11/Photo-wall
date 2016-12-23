@@ -71,6 +71,7 @@
 		}
 		ul.innerHTML = str;
 	}
+	
 	var lis = document.getElementsByTagName("li");//所有的图片
 	//用数组把每张图片的left和top值存起来  循环
 	var arr = [];
@@ -79,6 +80,7 @@
 	for(var i=0;i<lis.length;i++){
 		arr.push( [ lis[i].offsetLeft , lis[i].offsetTop ] );
 	}
+	
 	//console.log(arr)
 	//布局转换
 	for(var i=0;i<lis.length;i++){
