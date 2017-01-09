@@ -71,8 +71,6 @@
 		ul.innerHTML = str;
 	}
 	
-	
-	
 	var lis = document.getElementsByTagName("li");//所有的图片
 	
 	//用数组把每张图片的left和top值存起来  循环
@@ -115,8 +113,6 @@
 	
 	//碰撞检测
 	function drag(obj){
-//		var disX = 0;
-//		var disY = 0;
 		obj.onmousedown = function(ev){
 			obj.style.zIndex = izIndex++;//注意这个提升层级的
 	
